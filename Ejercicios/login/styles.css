@@ -1,0 +1,23 @@
+.formulario{
+    background-color: #dddcdc;
+    padding: 40px; 
+}
+
+.title{
+    text-align: center;
+}
+
+.input_form{
+    padding: 6px;
+    width: 100%;
+    background-color: #01a147bd;
+    margin: auto;
+}
+
+.button{
+    width: 50%;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    
+}

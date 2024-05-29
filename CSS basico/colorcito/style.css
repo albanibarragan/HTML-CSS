@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card {
+  background-color: beige;
+  padding: 2.5rem;
+  border-left: 5px solid black;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em; /*busca a la caja padre */
+}
+
+span {
+  color: #cfcfcf;
+  font-size: 10px;
+  font-style: italic;
+}
+
+p {
+  color: #252525;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.box-1 {
+  background-color: rgb(75, 178, 219);
+}
+
+.box-2 {
+  background-color: #00ff00;
+}
+
+.box-3 {
+  background-color: hsl(30, 90%, 55%);
+}
+
+.box-4 {
+  background-color: rgba(238, 207, 68, 0.979);
+}
+
+.box-5 {
+  background-color: oklch(37.35% 0.163 318.71);
+}
