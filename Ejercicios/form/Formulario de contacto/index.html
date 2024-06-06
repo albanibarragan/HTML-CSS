@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario de contacto</title>
+  </head>
+  <body>
+    <form action="">
+      <h2>Formulario de contacto</h2>
+      <div class="inputs-form">
+        <label class="label-input" for="nombre"
+          >Nombre completo
+          <input type="text" placeholder="Jane Doe" id="nombre" required />
+        </label>
+      </div>
+      <div class="inputs-form">
+        <label class="label-input" for="email">
+          Correo electronico
+          <input
+            type="email"
+            id="email"
+            placeholder="janedoe@gmail.com"
+            required
+          />
+        </label>
+      </div>
+      <div class="inputs-form">
+        <label class="label-input" for="users">
+          Tipo de usuario
+          <select name="user" id="users">
+            <option value="user1">Estudiante</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otros</option>
+          </select>
+        </label>
+      </div>
+      <div class="inputs-form">
+        <label class="label-input">
+          País
+          <input list="countries" placeholder="Elige un pais" />
+          <datalist id="countries">
+            <option value="Argentina"></option>
+            <option value="Bolivia"></option>
+            <option value="Brazil"></option>
+            <option value="Chile"></option>
+            <option value="Colombia"></option>
+            <option value="Ecuador"></option>
+            <option value="Guyana"></option>
+            <option value="Paraguay"></option>
+            <option value="Peru"></option>
+            <option value="Suriname"></option>
+            <option value="Uruguay"></option>
+            <option value="Venezuela"></option>
+          </datalist>
+        </label>
+      </div>
+      <div class="inputs-form">
+        <label class="label-input" for="comentario"
+          >Comentario
+          <textarea
+            name="comentario"
+            id="comentario"
+            placeholder="Dejanos un comentario..."
+            rows="5"
+          ></textarea>
+        </label>
+      </div>
+      <div class="inputs-form">
+        <label for="check">
+          <input
+            type="checkbox"
+            value="terms"
+            class="checkbox"
+            maxlength="200"
+            id="check"
+            required
+          />
+          Acepto los<a href="/terms"> terminos y condiciones</a>
+        </label>
+      </div>
+      <div class="botones">
+        <button class="enviar" type="submit">Enviar</button
+        ><button class="enviar" type="reset">Limpiar</button>
+      </div>
+    </form>
+  </body>
+</html>
