@@ -1,0 +1,22 @@
+body {
+  background-color: #e08115;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+details {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  margin: 15px;
+}
+
+details[open] {
+  border: 1px solid #ddd;
+  background-color: #c7a681;
+}
+
+summary {
+  border-bottom: 1px solid #ddd;
+  background-color: transparent;
+}
